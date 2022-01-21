@@ -84,7 +84,7 @@ public class PlayerData implements Cloneable {
         player.updateInventory();
         player.setInvulnerable(false);
         restoreHealth(player);
-        player.setScoreboard(scoreboard);
+        // player.setScoreboard(scoreboard);
     }
 
     // Restores later if player has an item in their inventory which changes their max health value

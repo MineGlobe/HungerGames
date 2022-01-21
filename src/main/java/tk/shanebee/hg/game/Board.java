@@ -78,7 +78,7 @@ public class Board {
      * @param player Player to add
      */
     public void setBoard(Player player) {
-        player.setScoreboard(scoreboard);
+        // player.setScoreboard(scoreboard);
         team.addEntry(player.getName());
     }
 
